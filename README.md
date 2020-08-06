@@ -1,12 +1,13 @@
-Course materials for Applied Natural Language Processing (Spring 2019). 
+My own attempts for assignments in course Applied Natural Language Processing (Spring 2019). This is a work in progress and I currently focus on what is new to me.
+
 Syllabus: http://people.ischool.berkeley.edu/~dbamman/info256.html
 
-|Notebook|Description|
-|---|---|
+|Notebook|Description|Status|
+|---|---|---|
 |1.words/EvaluateTokenizationForSentiment.ipynb|The impact of tokenization choices on sentiment classification.|
 |1.words/ExploreTokenization.ipynb|Different methods for tokenizing texts (whitespace, NLTK, spacy, regex)|
 |1.words/TokenizePrintedBooks.ipynb|Design a better tokenizer for printed books|
-|2.distinctive_terms/ChiSquare.ipynb|Find distinctive terms using the Chi-square test|
+|2.distinctive_terms/ChiSquare.ipynb|Find distinctive terms using the Chi-square test|Done|
 |2.distinctive_terms/CompareCorpora.ipynb|Find distinctive terms using the Mann-Whitney rank sums test|
 |3.dictionaries/DictionaryTimeSeries.ipynb|Plot sentiment over time using human-defined dictionaries|
 |4.classification/CheckData_TODO.ipynb|Gather data for classification|
@@ -17,10 +18,10 @@ Syllabus: http://people.ischool.berkeley.edu/~dbamman/info256.html
 |6.tests/BootstrapConfidenceIntervals.ipynb|Estimate confidence intervals with the bootstrap|
 |6.tests/ParametricTest.ipynb|Hypothesis testing with parametric (normal) tests|
 |6.tests/PermutationTest.ipynb|Hypothesis testing with non-parametric (permutation) tests|
-|7.embeddings/DistributionalSimilarity.ipynb|Explore distributional hypothesis to build high-dimensional, sparse representations for words|
+|7.embeddings/DistributionalSimilarity.ipynb|Explore distributional hypothesis to build high-dimensional, sparse representations for words|Done|
 |7.embeddings/TFIDF.ipynb|Explore distributional hypothesis to build high-dimensional, sparse representations for words (with TF IDF scaling)|
 |7.embeddings/TurneyLittman2003.ipynb|Use word embeddings to implement the method of Turney and Littman (2003) for calculating the semantic orientation of a term defined by proximity to other terms in two polar dictionaries.|
-|7.embeddings/WordEmbeddings.ipynb|Explore word embeddings using Gensim|
+|7.embeddings/WordEmbeddings.ipynb|Explore word embeddings using Gensim|Done|
 |8.neural/MLP.ipynb|MLP for text classification (keras)|
 |8.neural/ExploreMLP.ipynb|Explore MLP for your data (keras)|
 |8.neural/CNN.ipynb|CNN for text classification (keras)|
